@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+       
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 24px;
+
+    margin: 0;
+}
+
+.tag{
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.box{
+    width: 384px;
+    border: solid 1px black;
+    background-color: white;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px black;
+    max-width: 87.2%;
+
+
+    
+}
+.box h1{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: hsl(0, 0%, 7%);
+    margin: 12px 0;
+    
+}
+.box p{
+    font-size: 16px;
+     color: hsl(0, 0%, 7%);
+}
+#para2{
+   color:  hsl(0, 0%, 42%);
+   font-size: 16px;
+}
+#imageAvatar{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 800;
+}
+.main-image{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 24px;
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: hsl(0, 0%, 42%);
+    margin: 0 0 24px 0;
+}
